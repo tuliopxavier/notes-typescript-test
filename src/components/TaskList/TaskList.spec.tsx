@@ -45,7 +45,7 @@ describe('Task list', () => {
 
     fireEvent.click(addTaskButton);
 
-    expect(screen.queryByTestId('task')).not.toBeInTheDocument();
+    expect(screen.queryByTestId('task')).toHaveTextContent('Your note must be a maximum of 250 characters. To mark it as completed, check the box on the left. You can delete it by clicking the delete button on the right.');
 
     const taskInput = screen.getByPlaceholderText('Add new note');
 
@@ -70,19 +70,12 @@ describe('Task list', () => {
 
     fireEvent.change(taskInput, {
       target: {
-        value: 'Task test'
-      }
-    });
-    fireEvent.click(addTaskButton);
-
-    fireEvent.change(taskInput, {
-      target: {
         value: 'Hey! Random test message.'
       }
     });
     fireEvent.click(addTaskButton);
 
-    const addedFirstTaskTitle = screen.getByText('Task test');
+    const addedFirstTaskTitle = screen.getByText('Your note must be a maximum of 250 characters. To mark it as completed, check the box on the left. You can delete it by clicking the delete button on the right.');
     const addedSecondTaskTitle = screen.getByText('Hey! Random test message.');
 
     expect(addedFirstTaskTitle).toBeInTheDocument()
@@ -143,5 +136,23 @@ describe('Task list', () => {
     const disclaimer = screen.getByText('Max. 250 characters');
 
     expect(disclaimer).toBeInTheDocument();
+  })
+
+  it('should submit on Enter press', () => {
+    render(<TaskList />);
+
+    const taskInput = screen.getByPlaceholderText('Add new note');
+
+    fireEvent.change(taskInput, {
+      target: {
+        value: 'Task test'
+      }
+    });
+
+    fireEvent.keyPress(taskInput, {key: "Enter", code: 13, charCode: 13});
+
+    const taskAdded = screen.getByText('Task test');
+
+    expect(taskAdded).toBeInTheDocument();
   })
 })

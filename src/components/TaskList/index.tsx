@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { FiCornerRightDown, FiXCircle } from 'react-icons/fi';
 import { Section, Task } from './styles';
-import type { TaskType } from '../types/TaskType'
+import type { TaskType } from '../../types/TaskType'
 
 const initialTask = {
   id: 99,
@@ -83,12 +83,13 @@ export function TaskList() {
                   <input
                     type="checkbox"
                     onClick={() => handleToggleTaskCompletion(task.id)}
+                    aria-label='check completed task'
                   />
                 </label>
                 <p>{task.title}</p>
               </article>
 
-              <button type="button" data-testid="remove-task-button" onClick={() => handleRemoveTask(task.id)}>
+              <button type="button" data-testid="remove-task-button" aria-label='delete button' onClick={() => handleRemoveTask(task.id)}>
                 <FiXCircle />
               </button>
             </Task>

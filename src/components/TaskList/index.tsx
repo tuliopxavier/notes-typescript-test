@@ -3,8 +3,14 @@ import { FiCornerRightDown, FiXCircle } from 'react-icons/fi';
 import { Section, Task } from './styles';
 import type { TaskType } from '../types/TaskType'
 
+const initialTask = {
+  id: 99,
+  title: 'Your note must be a maximum of 250 characters. To mark it as completed, check the box on the left. You can delete it by clicking the delete button on the right.',
+  isComplete: false
+}
+
 export function TaskList() {
-  const [tasks, setTasks] = useState<TaskType[]>([]);
+  const [tasks, setTasks] = useState<TaskType[]>([initialTask]);
   const [newTaskTitle, setNewTaskTitle] = useState('');
   const [id, setId] = useState(0);
   const input = useRef<any>(null);

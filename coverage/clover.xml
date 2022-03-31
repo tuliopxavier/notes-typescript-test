@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1648580849553" clover="3.2.0">
+  <project timestamp="1648580849553" name="All files">
+    <metrics statements="36" coveredstatements="33" conditionals="6" coveredconditionals="5" methods="15" coveredmethods="13" elements="57" coveredelements="51" complexity="0" loc="36" ncloc="36" packages="2" files="4" classes="4"/>
+    <package name="Header">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/terremoto/Desktop/notes/notes-typescript-test/src/components/Header/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/terremoto/Desktop/notes/notes-typescript-test/src/components/Header/styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="TaskList">
+      <metrics statements="31" coveredstatements="28" conditionals="6" coveredconditionals="5" methods="14" coveredmethods="12"/>
+      <file name="index.tsx" path="/Users/terremoto/Desktop/notes/notes-typescript-test/src/components/TaskList/index.tsx">
+        <metrics statements="28" coveredstatements="25" conditionals="6" coveredconditionals="5" methods="14" coveredmethods="12"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="20" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="19" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="40" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="20" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="53" count="20" type="stmt"/>
+        <line num="62" count="7" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="76" count="16" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/terremoto/Desktop/notes/notes-typescript-test/src/components/TaskList/styles.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

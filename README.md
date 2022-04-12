@@ -8,10 +8,9 @@ Deploy com **continuous deployment** feito na **Vercel**.
 
 <hr>
 
-<img style="width: 75%" src="https://raw.githubusercontent.com/tuliopxavier/images-repo/main/Screen%20Shot%202022-03-31%20at%2000.49.58.png?token=GHSAT0AAAAAABRLZNSCEVPTALOHB4TYZ6W6YSORGJQ">
-<img style="width: 50%" src="https://raw.githubusercontent.com/tuliopxavier/images-repo/main/Screen%20Shot%202022-03-31%20at%2000.22.57.png?token=GHSAT0AAAAAABRLZNSCAB452L23Y3GKZM5OYSORGEA">
-<img style="width: 50%" src="https://raw.githubusercontent.com/tuliopxavier/images-repo/main/Screen%20Shot%202022-03-31%20at%2003.48.39.png?token=GHSAT0AAAAAABRLZNSCQ7V7D7IF2VVVXWK2YSORGMA">
-
+<img style="width: 75%" src="https://github.com/tuliopxavier/images-repo/blob/main/Screen%20Shot%202022-03-31%20at%2000.49.58.png?raw=true"/>
+<img style="width: 50%" src="https://github.com/tuliopxavier/images-repo/blob/main/Screen%20Shot%202022-03-31%20at%2000.22.57.png?raw=true"/>
+<img style="width: 50%" src="https://github.com/tuliopxavier/images-repo/blob/main/Screen%20Shot%202022-03-31%20at%2003.48.39.png?raw=true"/>
   
 <hr>
 
